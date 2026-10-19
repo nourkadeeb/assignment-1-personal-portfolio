@@ -1,0 +1,235 @@
+/*!!!!!!!!!!!!! Global Styles  */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+}
+span,
+a {
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+p {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+}
+/*********************************************** Name  */
+.task {
+  background-color: aliceblue;
+  padding-block: 20px;
+}
+.task .container {
+  width: 70%;
+  margin-inline: auto;
+}
+.name,
+.contact {
+  background-color: #18487b;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.name-container {
+  width: 70%;
+  margin-inline: auto;
+  /* background-color: red; */
+  text-align: center;
+}
+.name h1 {
+  color: white;
+  font-size: 32px;
+}
+.name h2 {
+  color: rgb(132, 192, 232);
+  font-size: 18px;
+}
+ul {
+  /* background-color: beige; */
+  padding-block: 10px;
+}
+ul li {
+  display: inline-block;
+  /* background-color: red; */
+  margin-inline: 5px;
+}
+ul li a {
+  color: white;
+  font-size: 16px;
+  background-color: #2a5685;
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.425);
+}
+/*********************************************** About  */
+.about,
+.skills,
+.experince {
+  background-color: white;
+  padding: 15px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #18487b;
+}
+h4 {
+  font-size: 18px;
+  color: #4d8fd6;
+}
+.line {
+  height: 2px;
+  margin-inline: auto;
+  background-color: rgb(169, 231, 255);
+}
+.about-content .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  /* background-color: red; */
+  padding: 16px;
+}
+
+.about-content .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 79%;
+  /* background-color: yellow; */
+  padding: 16px;
+}
+.about .image div {
+  width: fit-content;
+  margin-inline: auto;
+  /* background-color: aqua; */
+}
+.about .image img {
+  width: 200px;
+  border-radius: 50%;
+}
+.about-content .text P {
+  font-size: 18px;
+  color: rgb(112, 112, 112);
+  line-height: 35px;
+}
+
+.about-content .text P span {
+  color: rgb(92, 184, 244);
+  font-weight: 800;
+}
+.about-content .text button {
+  padding: 16px;
+  font-size: 14px;
+  background-color: #18487b;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+}
+/*********************************************** Skills  */
+.all-cards {
+  width: 95%;
+  margin-inline: auto;
+  /* background-color: yellow; */
+}
+.all-cards div {
+  display: inline-block;
+  width: 24%;
+  margin-inline-start: 5px;
+  padding: 12px;
+  border: 1px solid rgb(199, 229, 241);
+  background-color: #fafcff;
+  border-radius: 20px;
+}
+/*********************************************** experince  */
+.experince .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  /* background-color: red; */
+  /* padding: 16px; */
+}
+
+.experince .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 89%;
+  /* background-color: yellow; */
+  padding: 16px;
+}
+
+.experince .image div {
+  width: fit-content;
+  /* margin-inline: auto; */
+  /* background-color: aqua; */
+}
+.experince .image img {
+  width: 100px;
+}
+.back-img {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(199, 229, 241);
+  border-radius: 10px;
+}
+h5 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+h6 {
+  font-size: 18px;
+  color: #4d8fd6;
+  margin: 0px;
+}
+.card {
+  /* background-color: green; */
+  background-color: #f8fafc;
+  border-left: 5px solid #18487b;
+  border-radius: 20px;
+  padding: 25px 25px;
+  margin-top: 20px;
+}
+.card > p {
+  margin-top: 0px;
+}
+/*********************************************** contact  */
+.contact h3,
+.contact p {
+  color: white;
+}
+.contact ul li a {
+  padding: 16px;
+}
+.contact {
+  padding: 20px 30px;
+}
+
+/*********************************************** contact  */
+.last {
+  padding: 20px 30px;
+  text-align: center;
+  background-color: #071a35;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+.last span {
+  color: #7bc8ff;
+}
+.last p {
+  color: white;
+}
